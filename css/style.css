@@ -678,7 +678,47 @@ h1 {
 .latest-articles-wrapper {
   width: 1200px;
   margin: 0 auto;
-  border: 1px solid yellow;
+}
+
+.latest-articles-header {
+  margin-top: 121px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #333333;
+}
+
+.latest-articles-paragraph {
+  margin-top: 19px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #666666;
+}
+
+.latest-articles-slider-list {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.latest-articles-slider-list-item {
+  margin-right: 60px;
+}
+
+.latest-articles-slider-list-item:last-child {
+  margin-right: 0px;
+}
+
+.latest-articles-slider-list-item > img {
+  position: absolute;
 }
 /* latest-articles styles end */
 
