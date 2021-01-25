@@ -673,7 +673,7 @@ h1 {
   height: 100%;
   margin: 0 auto;
   background: #cccccc;
-  border: 1px solid red;
+  border: 1px solid #cccccc;
 }
 .latest-articles-wrapper {
   width: 1200px;
@@ -711,14 +711,45 @@ h1 {
 
 .latest-articles-slider-list-item {
   margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .latest-articles-slider-list-item:last-child {
   margin-right: 0px;
 }
 
-.latest-articles-slider-list-item > img {
+.latest-articles-item-content {
   position: absolute;
+  text-align: center;
+}
+
+.latest-articles-item-content > h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  color: #f7f7f7;
+  margin-bottom: 10px;
+}
+
+.latest-articles-item-content > p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+  color: #f7f7f7;
+  margin-bottom: 40px;
+}
+
+.article-arrow:hover,
+.article-arrow:focus,
+.article-arrow:active {
+  opacity: 0.5;
 }
 /* latest-articles styles end */
 
